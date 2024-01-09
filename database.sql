@@ -7,60 +7,47 @@ SHOW VARIABLES LIKE 'secure_file_priv';
 
 
 use siniestros;
-DROP TABLE hechos;
-CREATE TABLE Hechos (
-    ID VARCHAR(10) PRIMARY KEY,
-    N_VICTIMAS INT(20),
-    FECHA DATE,
-    AAAA INT,
-    MM INT,
-    DD INT,
-    HORA TIME,
-    HH INT,
-    LUGAR_DEL_HECHO VARCHAR(255),
-    TIPO_DE_CALLE VARCHAR(50),
+DROP TABLE homicidios;
+
+CREATE TABLE Homicidios (
+    Id VARCHAR(10) PRIMARY KEY,
+    Fecha DATE,
+    Año INT,
+    Mes INT,
+    Día INT,
+    Día_semana VARCHAR(10),
+    Hora_completa TIME,
+    Hora INT,
+    Num_víctimas INT,
+    Participantes VARCHAR(50),
+    Rol VARCHAR(20),
+    Acusado VARCHAR(50),
+    Victima VARCHAR(50),
+    Sexo VARCHAR(10),
+    Edad INT,
+    Rango_etario VARCHAR(20),
+    Fecha_fallecimiento DATE,
+    Lugar_del_hecho VARCHAR(100),
+    Tipo_de_calle VARCHAR(20),
     Calle VARCHAR(50),
-    Altura INT,
-    Cruce VARCHAR(255) COLLATE utf8mb4_unicode_ci,
-    Direccion_Normalizada VARCHAR(255) COLLATE utf8mb4_unicode_ci,
-    COMUNA INT,
-    pos_x FLOAT,
-    pos_y FLOAT,
-    PARTICIPANTES VARCHAR(50),
-    VICTIMA VARCHAR(50),
-    ACUSADO VARCHAR(50)
-)ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+    Cruce VARCHAR(50),
+    Dirección_normalizada VARCHAR(100),
+    Comuna INT, 
+    Xy_caba VARCHAR(50),
+    Coordenada_x FLOAT,
+    Coordenada_y FLOAT,
+    Pos_x FLOAT,
+    Pos_y FLOAT
+);
 
 
--- Asegúrate de ajustar el nombre de tu tabla y la ruta del archivo CSV según tus necesidades.
-LOAD DATA local INFILE 'C:/Users/maria/Desktop/PI_DA_2/homicidios_limpio.csv' INTO TABLE Hechos
+LOAD DATA local INFILE 'C:/Users/maria/Desktop/PI_DA/PI_DA_2/Datasets/clean/siniestos_limpio.csv' INTO TABLE Homicidios
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
-IGNORE 1 ROWS; -- Para omitir la primera fila si contiene encabezados de columna.
+IGNORE 1 ROWS; 
 
-SELECT * from hechos;
-
-DROP TABLE victimas;
-CREATE TABLE victimas (
-    ID_hecho VARCHAR(10),
-    FECHA DATE,
-    AAAA INT,
-    MM INT,
-    DD INT,
-    ROL VARCHAR(20),
-    VICTIMA VARCHAR(20),
-    SEXO VARCHAR(10),
-    EDAD INT,
-    FECHA_FALLECIMIENTO DATETIME
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+SELECT * from homicidios;
 
 
-LOAD DATA local INFILE 'C:/Users/maria/Desktop/PI_DA_2/victimas_homicidio.csv' INTO TABLE victimas
-FIELDS TERMINATED BY ',' 
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
-IGNORE 1 ROWS;
-
-SELECT * FROM victimas;
 
