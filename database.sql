@@ -8,7 +8,6 @@ SHOW VARIABLES LIKE 'secure_file_priv';
 
 use siniestros;
 DROP TABLE homicidios;
-
 CREATE TABLE Homicidios (
     Id VARCHAR(10) PRIMARY KEY,
     Fecha DATE,
@@ -37,8 +36,10 @@ CREATE TABLE Homicidios (
     Coordenada_x FLOAT,
     Coordenada_y FLOAT,
     Pos_x FLOAT,
-    Pos_y FLOAT
+    Pos_y FLOAT,
+    `Semestre con anio` VARCHAR(10)
 );
+
 
 
 LOAD DATA local INFILE 'C:/Users/maria/Desktop/PI_DA/PI_DA_2/Datasets/clean/siniestos_limpio.csv' INTO TABLE Homicidios
