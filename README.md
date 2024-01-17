@@ -1,5 +1,7 @@
 ## **Proyecto Individual** - 02-Siniestros Viales en CABA con víctimas fatales -(2016-2021)
 
+![portada](tmp\portada.jpg)
+
 ### **Introducción** ⚠️ 🚧
 
 Este proyecto, ejecutado como Data Analyst de una consultora, busca realizar un análisis de datos solicitado por el `Observatorio de Movilidad y Seguridad Vial (OMSV)`, dependiente de la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires (CABA). El objetivo principal es proporcionar información fundamentada para la toma de decisiones orientadas a prevenir y reducir siniestros viales con víctimas fatales en la Ciudad de Buenos Aires.
