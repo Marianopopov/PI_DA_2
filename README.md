@@ -23,7 +23,7 @@ Se empleó la **Base de Víctimas Fatales en Siniestros Viales**, en formato Exc
 - Se examinaron las variables numéricas del dataset y se evaluó su correlación mediante una matriz, identificando una relación positiva entre las variables `Edad` y `Hora`.
 - La mayoría de los siniestros resultaron en una víctima fatal, siendo raro involucrar a 3 víctimas.
 
-##### Análisis Temporal:
+# ``Análisis Temporal:``
 
 En el periodo 2016-2021, los siniestros viales con víctimas fatales mostraron una tendencia alta y estacionaria hasta 2018, seguida por una disminución (considerando el inicio de la Pandemia por COVID19 en 2020).
 
@@ -37,7 +37,7 @@ Edad de las víctimas: La distribución del rango etario muestra que para los `M
 ![reporte_temporal](tmp/img/hora_sexo.png)
 
 
-##### Análisis Demográfico y Geográfico:
+# ``Análisis Demográfico y Geográfico:``
 
 ![geográfico](tmp/img/geo.png)
 
@@ -45,7 +45,7 @@ Edad de las víctimas: La distribución del rango etario muestra que para los `M
 
 Los siniestros ocurren en un 62% en calles tipo `Avenida`, y en un 82% corresponden a cruces entre calles. Este patrón se repite a lo largo de los años. Las comunas con más siniestros son: 1, 4, 9 y 8.
 
-##### Análisis Participativo:
+# ``Análisis Participativo:``
 
 Se analizaron las víctimas, predominantemente en los roles de **Conductor** o **Peatón**, y los siniestros se producen mayormente en Motos, seguidos por Peatones.
 
@@ -53,7 +53,7 @@ Se analizaron las víctimas, predominantemente en los roles de **Conductor** o *
 
 #### Indicadores de Rendimiento Clave KPI ⛔
 
-##### KPI Propuestos
+# ``KPI Propuestos``
 
 1. **Reducir en un 10% la tasa de homicidios en siniestros viales de los últimos seis meses, en CABA, en comparación con la tasa de homicidios en siniestros viales del semestre anterior**
 
