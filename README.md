@@ -37,7 +37,7 @@ Edad de las víctimas: La distribución del rango etario muestra que para los `M
 ![reporte_temporal](tmp/img/hora_sexo.png)
 
 
-# ``Análisis Demográfico y Geográfico:``
+# ``Análisis Geográfico:``
 
 ![geográfico](tmp/img/geo.png)
 
