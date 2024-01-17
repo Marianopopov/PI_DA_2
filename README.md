@@ -25,7 +25,7 @@ Se empleó la **Base de Víctimas Fatales en Siniestros Viales**, en formato Exc
 
 # ``Análisis Temporal:``
 
-En el periodo 2016-2021, los siniestros viales con víctimas fatales mostraron una tendencia alta y estacionaria hasta 2018, seguida por una disminución (considerando el inicio de la Pandemia por COVID19 en 2020).
+En el periodo analizado (2016-2021), los siniestros viales con víctimas fatales mostraron una tendencia alta y estacionaria hasta 2018, seguida por una disminución (considerando el inicio de la Pandemia por COVID19 en 2020), que luego ascienden nuevamente para el 2021.
 
 ![reporte_temporal](tmp/img/reporte_temporal.png)
 
@@ -43,7 +43,7 @@ Edad de las víctimas: La distribución del rango etario muestra que para los `M
 
 ![Tgeo](tmp/img/tipo_calle.png)
 
-Los siniestros ocurren en un 62% en calles tipo `Avenida`, y en un 82% corresponden a cruces entre calles. Este patrón se repite a lo largo de los años. Las comunas con más siniestros son: 1, 4, 9 y 8.
+Los siniestros ocurren en un 62% en calles tipo `Avenida`. Este patrón se repite a lo largo de los años. Las comunas con más siniestros son: 1, 4, 9 y 8.
 
 # ``Análisis Participativo:``
 
