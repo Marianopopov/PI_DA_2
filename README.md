@@ -41,29 +41,32 @@ Se empleó la **Base de Víctimas Fatales en Siniestros Viales**, en formato Exc
 
 En el periodo analizado (2016-2021), los siniestros viales con víctimas fatales mostraron una tendencia alta y estacionaria hasta 2018, seguida por una disminución (considerando el inicio de la Pandemia por COVID19 en 2020), que luego ascienden nuevamente para el 2021.
 
-![reporte_temporal](tmp/img/reporte_temporal.png)
+![reporte_temporal](tmp/img/3.png)
 
 
 Los horarios críticos están relacionados con el ingreso a la jornada laboral (5-9h), almuerzo (12-14h) y salida del trabajo (17-18h), mientras que los fines de semana se asocian con salidas nocturnas (4-7h).
 
-Edad de las víctimas: La distribución del rango etario muestra que para los `Masculinos` es de 20 a 40 años, mientras que para las `Femeninas` es de 40, 60 y 80 años.
-
-![reporte_temporal](tmp/img/hora_sexo.png)
-
-
 # ``Análisis Geográfico:``
 
-![geográfico](tmp/img/geo.png)
+![geográfico](tmp/img/1.png)
 
 ![Tgeo](tmp/img/tipo_calle.png)
 
 Los siniestros ocurren en un 62% en calles tipo `Avenida`. Este patrón se repite a lo largo de los años. Las comunas con más siniestros son: 1, 4, 9 y 8.
+
+# ``Análisis Género:``
+![Tgeo](tmp/img/2.png)
+
+Los siniestros ocurren en un 84% Masculinos, miestras que el 23% restante es femenino. <br>
+La edad promedio de los masculinos es de 37 años, miestas que la edad promedio femenina es de 47 años.
 
 # ``Análisis Participativo:``
 
 Se analizaron las víctimas, predominantemente en los roles de **Conductor** o **Peatón**, y los siniestros se producen mayormente en Motos, seguidos por Peatones.
 
 ![Tgeo](tmp/img/victimas_tipo.png)
+
+
 
 #### Indicadores de Rendimiento Clave KPI ⛔
 
