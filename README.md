@@ -2,6 +2,20 @@
 
 ![portada](tmp/portada.jpg)
 
+## Índice
+
+1. [Introducción](#introducción)
+2. [Contexto](#contexto)
+3. [Desarrollo](#desarrollo)
+   1. [Datos](#datos)
+   2. [Análisis de Datos](#análisis-de-datos)
+      - [Análisis Temporal](#análisis-temporal)
+      - [Análisis Geográfico](#análisis-geográfico)
+      - [Análisis Participativo](#análisis-participativo)
+   3. [Indicadores de Rendimiento Clave KPI](#indicadores-de-rendimiento-clave-kpi)
+4. [Conclusiones](#conclusiones)
+
+
 ### **Introducción** ⚠️ 🚧
 
 Este proyecto, ejecutado como Data Analyst de una consultora, busca realizar un análisis de datos solicitado por el `Observatorio de Movilidad y Seguridad Vial (OMSV)`, dependiente de la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires (CABA). El objetivo principal es proporcionar información fundamentada para la toma de decisiones orientadas a prevenir y reducir siniestros viales con víctimas fatales en la Ciudad de Buenos Aires.
